@@ -2,7 +2,7 @@
 layout: post
 title:  "Readable Table-Driven Tests in JUnit with TableTest"
 date:   2025-08-31 19:42:41 +0200
-categories: [table-driven-testing, tabletest, tdd, junit, java, kotlin, parameterized-tests, testing, test-design]
+tags: table-driven-testing tabletest tdd junit java kotlin parameterized-tests testing test-design
 ---
 A lot of software is about evaluating inputs against rules: validating fields, classifying data, and triggering actions when thresholds are crossed. Automated testing of this functionality often leads to repetitive tests with near-identical setup, execution, and assertions.
 
@@ -105,4 +105,9 @@ This style makes tests easier to maintain, doubles as documentation, and invites
 
 [TableTest][tabletest] is a small library that makes this approach easy to use with JUnit, both for Java and Kotlin code. For setup, converters, advanced features, and IDE support, see the README and user guide on [GitHub][tabletest].
 
+
+
+_Next post: [Parameter Conversion with TableTest][parameter-conversion]_
+
 [tabletest]: https://github.com/nchaugen/tabletest
+[parameter-conversion]: {% post_url 2025-09-06-parameter-conversion-with-tabletest %}
