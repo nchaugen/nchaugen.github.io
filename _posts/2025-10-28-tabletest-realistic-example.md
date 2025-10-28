@@ -302,7 +302,7 @@ private static int intValue(Matcher matcher, TimeUnit unit) {
 }
 ```
 
-The relative timestamp parser may warrant its own class (and tests!) for reuse in other TableTests. We will not cover that here, but TableTest supports importing factory method parsers from other classes.
+The relative timestamp parser may warrant its own class (and tests!) for reuse in other TableTests. We will not cover that here, but you can find the code in the [examples repository][tabletest-examples-repo].
 
 Note that we provide an alternative parser for LocalDateTime, not a new factory method for Purchase. As before, TableTest will look for another converter to transform the string to LocalDateTime before calling the Purchase factory method. Our new custom parser will take precedence over the built-in version that was used before. 
 
@@ -312,6 +312,8 @@ Note that we provide an alternative parser for LocalDateTime, not a new factory 
 We now have the building blocks for the levelled discount logic covered by two TableTests. Hopefully, this example illustrates how TableTest can be used to craft tests that are concise, maintainable, and communicate well. 
 
 We put some effort into making the tables convey the business rules as clearly as possible. We did this by adding scenario descriptions, considering the value notation, and providing custom parsers. I believe this is a worthwhile investment. In many situations, I have brought tables like these into discussions with business experts to clarify the business rules. I also find that I keep referring back to the tables when I need to clarify how the software works. 
+
+If you want to learn more about TableTest, check out the [documentation][tabletest]. I have made the examples in this post available on [GitHub][tabletest-examples-repo] if you want to try them out. 
 
 <br>
 <br>
@@ -324,3 +326,4 @@ _Previous post: [Parameter Conversion with TableTest][parameter-conversion]_
 [junit-implicit-conversion]: https://docs.junit.org/current/user-guide/#writing-tests-parameterized-tests-argument-conversion-implicit
 [test-run-default-display]: /assets/2025-10-28-tabletest-realistic-example/test-run-default-display.png
 [test-run-improved-display]: /assets/2025-10-28-tabletest-realistic-example/test-run-with-displayname-and-scenario.png
+[tabletest-examples-repo]: https://github.com/nchaugen/tabletest-examples
