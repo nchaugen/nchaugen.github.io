@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Table-Driven Testing with TableTest: A Realistic Example"
-date:   2025-10-28 00:45:00 +0100
+date:   2025-10-28 21:30:00 +0100
 tags: table-driven-testing tabletest tdd junit java kotlin parameterized-tests testing test-design
 ---
 [TableTest][tabletest] is a JUnit extension for driving parameterized tests from readable tables. Previous posts have [introduced TableTest][table-driven-testing] and explained how table values are [converted to test parameter types][parameter-conversion]. In this post we'll show how to design TableTests for a realistic example. 
