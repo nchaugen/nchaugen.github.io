@@ -130,11 +130,14 @@ TableTest runs the test once per value in the set. If multiple columns use sets,
 - Custom conversion methods can be added and reused across test classes.
 - Value sets make it clear that multiple values are applicable for a single scenario, expanding coverage without bloating the table.
 
+<br>
+<br>
 
-_Previous post: [Readable Table-Driven Tests in JUnit with TableTest][table-driven-testing]_
-
+_Previous post: [Readable Table-Driven Tests in JUnit with TableTest][table-driven-testing]_  
+_Next post: [Table-Driven Testing with TableTest: A Realistic Example][tabletest-realistic-example]_
 
 [table-driven-testing]: {% post_url 2025-08-31-table-driven-testing %}
+[tabletest-realistic-example]: {% post_url 2025-10-28-tabletest-realistic-example %}
 [table-test-display-name-intellij]: /assets/2025-09-06-parameter-conversion-with-tabletest/scenario-as-test-display-name-in-intellij.png
 [value-set-display-name-intellij]: /assets/2025-09-06-parameter-conversion-with-tabletest/value-set-display-name-in-intellij.png
 [table-test-user-guide-scenario]: https://github.com/nchaugen/tabletest/blob/main/USERGUIDE.md#scenario-names

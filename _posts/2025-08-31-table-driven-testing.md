@@ -105,7 +105,8 @@ This style makes tests easier to maintain, doubles as documentation, and invites
 
 [TableTest][tabletest] is a small library that makes this approach easy to use with JUnit, both for Java and Kotlin code. For setup, converters, advanced features, and IDE support, see the README and user guide on [GitHub][tabletest].
 
-
+<br>
+<br>
 
 _Next post: [Parameter Conversion with TableTest][parameter-conversion]_
 
